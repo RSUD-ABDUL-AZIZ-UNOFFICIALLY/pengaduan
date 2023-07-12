@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name User --attributes firstName:string,password:string
+npx sequelize-cli model:generate --name Complaint --attributes noTiket:string,nama:string,noHp:string,topic:string,kendala:string
+npx sequelize-cli model:generate --name Tiket --attributes noTiket:string,nama:string,status:string,keteranagn:string
